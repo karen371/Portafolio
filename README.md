@@ -43,3 +43,7 @@ Primero, crea una carpeta para tus archivos de variables (por ejemplo, `variable
    @import '~bootstrap/scss/bootstrap';
 
 De esta manera, puedes modificar la paleta de colores de Bootstrap sin necesidad de alterar los archivos originales de la biblioteca
+
+### icons 
+
+Debido  a que los iconos no me cargaron bien en la página, decidí descargarlos en formato svg de la página de [Font Awesome] (https://fontawesome.com/), por lo tanto los iconos se encuentran en la carpeta img.

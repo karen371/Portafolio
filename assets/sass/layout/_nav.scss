@@ -1,0 +1,9 @@
+@use '../variables/variables';
+
+.nav{
+    background-color: variables.$success;
+}
+
+.image__nav{
+    width: 150px;
+}

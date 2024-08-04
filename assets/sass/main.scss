@@ -1,2 +1,11 @@
 @import "variables/variables";
+
+// Importar los estilos base de Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@import "layout/nav";
+@import "layout/header";
+@import "layout/section";
+
+@import "pages/portafolio";

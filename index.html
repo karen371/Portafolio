@@ -13,10 +13,10 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg  nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo1.png" alt="logo" style="width: 150px;">
+                <img src="./assets/img/logo1.png" alt="logo" class="image__nav">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,33 +24,79 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link text-secondary" aria-current="page" href="#header">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mis Habilidades</a>
+                        <a class="nav-link text-secondary" href="#">Mis Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Proyectos</a>
+                        <a class="nav-link text-secondary" aria-current="page" href="#">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link text-secondary" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header>
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <img src="./assets/img/web_developmen.svg" alt="ilustracion" class="img-fluid">
-            </div>
-            <div class="col-md-6 col-12">
-                <h1>Soy Karen Godoy</h1>
-                <h3>Desarrolladora FrontEnd</h3>
-                <p>Texto falso</p>
-                <button type="button" class="btn btn-primary">Primary</button>
+    <header id="header">
+        <div class="container py-4">
+            <div class="row">
+                <!-- Columna para la ilustración -->
+                <div class="col-md-6 col-12">
+                    <img src="./assets/img/web_developmen.svg" alt="Ilustración" class="img-fluid">
+                </div>
+                <!-- Columna para el texto y el botón -->
+                <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
+                    <h1 class="text-secondary fw-bold">Karen Godoy Marín</h1>
+                    <h3 class="text-primary">Desarrolladora FrontEnd</h3>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button type="button" class="btn btn-danger col-md-3">Contáctame</button>
+                </div>
             </div>
         </div>
     </header>
+    <main>
+        <section id="skills" class="bg-success">
+            <div class="container">
+                <h2 class="text-secondary fw-bold text-center">Mis Habilidades</h2>
+                <div class="row py-4">
+                    <div class="col-md col-6  d-flex justify-content-center align-items-center">
+                        <img src="./assets/img/html5-brands-solid.svg" alt="html" class="image_skills">
+                        <p>HTML</p>
+                    </div>
+                    <div class="col-md col-6   d-flex justify-content-center align-items-center"">
+                        <img src="./assets/img/css3-alt-brands-solid.svg" alt="css" class="image_skills">
+                        <p>CSS</p>
+                    </div>
+                    <div class="col-md col-6    d-flex justify-content-center align-items-center"">
+                        <img src="./assets/img/sass-brands-solid.svg" alt="sass" class="image_skills">
+                        <p>Sass</p>
+                    </div>
+                    <div class="col-md col-6   d-flex justify-content-center align-items-center"">
+                        <img src="./assets/img/bootstrap-brands-solid.svg" alt="bootstrap" class="image_skills">
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="col-md col-6    d-flex justify-content-center align-items-center"">
+                        <img src="./assets/img/git-alt-brands-solid.svg" alt="git" class="image_skills">
+                        <p>Git</p>
+                    </div>
+                    <div class="col-md col-6   d-flex justify-content-center align-items-center"">
+                        <img src="./assets/img/github-brands-solid.svg" alt="github" class="image_skills">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="col-md col-6   d-flex justify-content-center align-items-center"">
+                        <img src="./assets/img/js-brands-solid.svg" alt="javascript" class="image_skills">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="col-md col-6 d-flex justify-content-center align-items-center">
+                        <img src="./assets/img/vuejs-brands-solid.svg" alt="vue" class="image_skills">
+                        <p>Vue</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
