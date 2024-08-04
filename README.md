@@ -14,7 +14,9 @@ La fuente utilizada en este proyecto es **Lato**, la cual fue obtenida de [Googl
 
 La ilustración utilizada en la maqueta fue reemplazada por una de [Undraw](https://undraw.co/), una página recomendada en el documento. La nueva ilustración representa mejor el concepto del proyecto y se alinea más con el mensaje que quiero transmitir.
 
-### Modificar la paleta de colores de bootstrap
+### Iconos
+
+Debido a que los iconos no se cargaban correctamente en la página, decidí descargarlos en formato SVG desde [Font Awesome](https://fontawesome.com/). Por lo tanto, los iconos se encuentran en la carpeta `img`.
 
 # Modificar la Paleta de Colores de Bootstrap
 
@@ -42,8 +44,4 @@ Primero, crea una carpeta para tus archivos de variables (por ejemplo, `variable
    // Importar Bootstrap
    @import '~bootstrap/scss/bootstrap';
 
-De esta manera, puedes modificar la paleta de colores de Bootstrap sin necesidad de alterar los archivos originales de la biblioteca
-
-### Iconos
-
-Debido a que los iconos no se cargaban correctamente en la página, decidí descargarlos en formato SVG desde [Font Awesome](https://fontawesome.com/). Por lo tanto, los iconos se encuentran en la carpeta `img`.
+De esta manera, se puede modificar la paleta de colores de Bootstrap sin necesidad de alterar los archivos originales de la biblioteca.
