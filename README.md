@@ -44,6 +44,6 @@ Primero, crea una carpeta para tus archivos de variables (por ejemplo, `variable
 
 De esta manera, puedes modificar la paleta de colores de Bootstrap sin necesidad de alterar los archivos originales de la biblioteca
 
-### icons 
+### Iconos
 
-Debido  a que los iconos no me cargaron bien en la página, decidí descargarlos en formato svg de la página de [Font Awesome] (https://fontawesome.com/), por lo tanto los iconos se encuentran en la carpeta img.
+Debido a que los iconos no se cargaban correctamente en la página, decidí descargarlos en formato SVG desde [Font Awesome](https://fontawesome.com/). Por lo tanto, los iconos se encuentran en la carpeta `img`.
