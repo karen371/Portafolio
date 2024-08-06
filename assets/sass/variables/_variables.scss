@@ -9,3 +9,8 @@ $danger: #F6A5B2;
 //
 // Cambia la fuente sans-serif a Lato
 $font-family-sans-serif: 'Lato', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+//color y decoracion del link 
+$link-color:   $primary;
+$link-decoration: none;
+$link-hover-color:                        $secondary;

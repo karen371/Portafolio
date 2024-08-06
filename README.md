@@ -2,6 +2,32 @@
 
 ## Descripción del Proyecto
 
+Este desafío consiste en un portafolio personal que muestra las habilidades adquiridas durante el curso, así como algunos de los proyectos realizados. El portafolio ha sido desarrollado utilizando Bootstrap y Sass, con solo algunas modificaciones menores en CSS. 
+
+#### instalacion de Bootstrap
+
+Para instalar Bootstrap, sigue estos pasos utilizando la línea de comandos **Cmd**:
+
+Paso 1: Crea la carpeta del proyecto con el siguiente comando:
+
+**mkdir Portafolio-karen-godoy**
+
+Luego, entra en la carpeta recién creada con:
+
+**cd Portafolio-karen-godoy**
+
+Paso 2: Inicializa un nuevo proyecto, para ello ulizamos el comando que se muestra a continuación, el cual es el proceso para crear un archivo package.json en el directorio del proyecto. Este archivo contiene información sobre el proyecto y sus dependencias:
+
+**npm init -y**
+
+Paso 3: Instala Bootstrap en la carpeta del proyecto con el siguiente comando:
+
+npm install bootstrap
+
+Este comando descargará Bootstrap y sus dependencias en la carpeta node_modules, que es necesaria para el correcto funcionamiento del proyecto. 
+
+Esta es la forma que a mi me funciono instalar de forma correcta bootstrap.
+
 ### Selección de Paleta de Colores
 
 Para el diseño del portafolio, se ha elegido una paleta de colores que se puede consultar en la página de [Color Hunt](https://colorhunt.co/palette/f1e5d1dbb5b5c39898987070). Esta paleta ha sido mencionada en la documentación del proyecto y se utiliza para asegurar una coherencia visual en el diseño.
@@ -16,7 +42,7 @@ La ilustración utilizada en la maqueta fue reemplazada por una de [Undraw](http
 
 ### Iconos
 
-Debido a que los iconos no se cargaban correctamente en la página, decidí descargarlos en formato SVG desde [Font Awesome](https://fontawesome.com/). Por lo tanto, los iconos se encuentran en la carpeta `img`.
+Debido a que los iconos de la section `skills` no se cargaban correctamente en la página, decidí descargarlos en formato SVG desde [Font Awesome](https://fontawesome.com/). Por lo tanto, los iconos se encuentran en la carpeta `img`. Por el contrario los iconos de la section `contact` si estan cargados como iconos de `Font Awesome`.
 
 # Modificar la Paleta de Colores de Bootstrap
 
