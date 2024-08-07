@@ -93,11 +93,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #9db3e6;
-  --bs-link-color-rgb: 157, 179, 230;
+  --bs-link-color: #003b5c;
+  --bs-link-color-rgb: 0, 59, 92;
   --bs-link-decoration: none;
-  --bs-link-hover-color: #003b5c;
-  --bs-link-hover-color-rgb: 0, 59, 92;
+  --bs-link-hover-color: #9db3e6;
+  --bs-link-hover-color-rgb: 157, 179, 230;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -3249,7 +3249,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 133, 152, 196;
+  --bs-btn-focus-shadow-rgb: 38, 88, 116;
   text-decoration: none;
 }
 .btn-link:focus-visible {
@@ -11854,6 +11854,11 @@ textarea.form-control-lg {
 .image_skills {
   width: 30px;
   height: auto;
+}
+
+#contact i {
+  font-size: 25px;
+  color: #003b5c;
 }
 
 /*# sourceMappingURL=style.css.map */
