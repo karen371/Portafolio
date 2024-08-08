@@ -2,7 +2,14 @@
 
 ## Descripción del Proyecto
 
-Este desafío consiste en un portafolio personal que muestra las habilidades adquiridas durante el curso, así como algunos de los proyectos realizados. El portafolio ha sido desarrollado utilizando Bootstrap y Sass, con solo algunas modificaciones menores en CSS. 
+Este desafío consiste en un portafolio personal que muestra las habilidades adquiridas durante el curso, así como algunos de los proyectos realizados. El portafolio ha sido desarrollado utilizando Bootstrap y Sass, con algunas modificaciones menores en CSS. 
+
+## Maqueta del Diseño
+
+A continuación se muestra las maquetas que seguí para obtener el diseño de esta página:
+
+![Maqueta Desktop](./assets/img/desktop.png)
+![Maqueta Responsive](./assets/img/responsive.png)
 
 #### instalacion de Bootstrap
 
