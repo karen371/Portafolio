@@ -4,6 +4,8 @@
 
 Este desafío consiste en un portafolio personal que muestra las habilidades adquiridas durante el curso, así como algunos de los proyectos realizados. El portafolio ha sido desarrollado utilizando Bootstrap y Sass, con algunas modificaciones menores en CSS. 
 
+Link a la GitHub Pages [Portafolio](https://karen371.github.io/Portafolio/).
+
 ## Maqueta del Diseño
 
 A continuación se muestra las maquetas que seguí para obtener el diseño de esta página:
