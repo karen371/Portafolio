@@ -11,7 +11,7 @@ A continuación se muestra las maquetas que seguí para obtener el diseño de es
 ![Maqueta Desktop](./assets/img/desktop.png)
 ![Maqueta Responsive](./assets/img/responsive.png)
 
-#### instalacion de Bootstrap
+## instalacion de Bootstrap
 
 Para instalar Bootstrap, sigue estos pasos utilizando la línea de comandos **Cmd**:
 
@@ -35,19 +35,19 @@ Este comando descargará Bootstrap y sus dependencias en la carpeta node_modules
 
 Esta es la forma que a mi me funciono instalar de forma correcta bootstrap.
 
-### Selección de Paleta de Colores
+## Selección de Paleta de Colores
 
 Para el diseño del portafolio, se ha elegido una paleta de colores que se puede consultar en la página de [Color Hunt](https://colorhunt.co/palette/f1e5d1dbb5b5c39898987070). Esta paleta ha sido mencionada en la documentación del proyecto y se utiliza para asegurar una coherencia visual en el diseño.
 
-### Fuente
+## Fuente
 
 La fuente utilizada en este proyecto es **Lato**, la cual fue obtenida de [Google Fonts](https://fonts.google.com/specimen/Lato). Lato se eligió por su legibilidad y su estilo moderno, que complementa el diseño del portafolio.
 
-### La Ilustración
+## La Ilustración
 
 La ilustración utilizada en la maqueta fue reemplazada por una de [Undraw](https://undraw.co/), una página recomendada en el documento. La nueva ilustración representa mejor el concepto del proyecto y se alinea más con el mensaje que quiero transmitir.
 
-### Iconos
+## Iconos
 
 Debido a que los iconos de la section `skills` no se cargaban correctamente en la página, decidí descargarlos en formato SVG desde [Font Awesome](https://fontawesome.com/). Por lo tanto, los iconos se encuentran en la carpeta `img`. Por el contrario los iconos de la section `contact` si estan cargados como iconos de `Font Awesome`.
 
