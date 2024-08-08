@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karen Godoy">
+    <meta name="description" content="Portafolio personal">
+    <meta name="keywords" content="mi portafolio,desarrolladora frontend ,habilidades, proyectos">
+    <link rel="shortcut icon" href="./assets/img/logo2.png" />
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/f595e38a4e.js" crossorigin="anonymous"></script>
     <!--FONTS-->
@@ -13,7 +17,7 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg  nav">
+    <nav class="navbar navbar-expand-lg fixed-top nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#header">
                 <img src="./assets/img/logo1.png" alt="logo" class="image__nav">
@@ -40,7 +44,7 @@
         </div>
     </nav>
     <header id="header">
-        <div class="container py-4">
+        <div class="container py-5 mt-3">
             <div class="row">
                 <!-- Columna para la ilustración -->
                 <div class="col-md-6 col-12">
@@ -50,75 +54,89 @@
                 <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
                     <h1 class="text-secondary fw-bold">Karen Godoy Marín</h1>
                     <h3 class="text-primary">Desarrolladora FrontEnd</h3>
-                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="text-secondary">Ingeniera en Informática titulada del Instituto Santo Tomás, 
+                        con una especialización en desarrollo Front End. Mi pasión por la tecnología y mi 
+                        compromiso con la excelencia me han llevado a enfocarme en crear interfaces web atractivas y funcionales.
+                        Lo que me distingue en mi campo es mi dedicación, responsabilidad y proactividad. 
+                        Siempre estoy dispuesta a aprender cosas nuevas y a enfrentar desafíos con una actitud 
+                        positiva. Mi objetivo es seguir perfeccionando mi carrera y adquirir nuevos conocimientos para ofrecer los 
+                        mejores resultados en el desarrollo de páginas web.   
+                        Estoy entusiasmada por la oportunidad de colaborar en proyectos innovadores y de seguir 
+                        contribuyendo al avance del diseño y desarrollo web. Si buscas una profesional comprometida y 
+                        con un enfoque en la calidad, no dudes en ponerte en contacto. 
+                    </p>
+                    <p class="text-secondary">¡Estoy lista para llevar tu proyecto al siguiente nivel!.</p>
                     <button type="button" class="btn btn-danger col-md-3">Contáctame</button>
                 </div>
             </div>
         </div>
     </header>
     <main>
+        <!--Seccion de habilides-->
         <section id="skills" class="bg-success">
             <div class="container py-4 my-2">
                 <h2 class="text-secondary fw-bold text-center">Mis Habilidades</h2>
                 <div class="row py-4 d-flex" >
                     <div class="col-md col-6  d-flex justify-content-left align-items-center">
                         <img src="./assets/img/html5-brands-solid.svg" alt="html" class="image_skills mx-3">
-                        <p>HTML</p>
+                        <p class="text-secondary">HTML</p>
                     </div>
                     <div class="col-md col-6   d-flex justify-content-left align-items-center">
                         <img src="./assets/img/css3-alt-brands-solid.svg" alt="css" class="image_skills mx-3">
-                        <p>CSS</p>
+                        <p class="text-secondary">CSS</p>
                     </div>
                     <div class="col-md col-6    d-flex justify-content-left align-items-center">
                         <img src="./assets/img/sass-brands-solid.svg" alt="sass" class="image_skills mx-3">
-                        <p>Sass</p>
+                        <p class="text-secondary">Sass</p>
                     </div>
                     <div class="col-md col-6   d-flex justify-content-left align-items-center">
                         <img src="./assets/img/bootstrap-brands-solid.svg" alt="bootstrap" class="image_skills mx-3">
-                        <p>Bootstrap</p>
+                        <p class="text-secondary">Bootstrap</p>
                     </div>
                     <div class="col-md col-6    d-flex justify-content-left align-items-center">
                         <img src="./assets/img/git-alt-brands-solid.svg" alt="git" class="image_skills mx-3">
-                        <p>Git</p>
+                        <p class="text-secondary">Git</p>
                     </div>
                     <div class="col-md col-6   d-flex justify-content-left align-items-center">
                         <img src="./assets/img/github-brands-solid.svg" alt="github" class="image_skills mx-3">
-                        <p>GitHub</p>
+                        <p class="text-secondary">GitHub</p>
                     </div>
                     <div class="col-md col-6   d-flex justify-content-left align-items-center">
                         <img src="./assets/img/js-brands-solid.svg" alt="javascript" class="image_skills rounded mx-3">
-                        <p>JavaScript</p>
+                        <p class="text-secondary">JavaScript</p>
                     </div>
                     <div class="col-md col-6 d-flex justify-content-left align-items-center">
                         <img src="./assets/img/vuejs-brands-solid.svg" alt="vue" class="image_skills mx-3">
-                        <p>Vue</p>
+                        <p class="text-secondary">Vue</p>
                     </div>
                 </div>
             </div>
         </section>
+        <!--seccion de mis proyectos-->
         <section id="project">
             <div class="container py-4 my-2">
                 <h2 class="text-secondary fw-bold text-center">Mis Proyectos</h2>
                 <div class="row my-2 py-4 d-flex justify-content-center">
-                    <div class="card col-md-3 col-12 mx-2 border-0" style="width: 18rem;">
+                    <!--CARD-->
+                    <div class="card col-md-3 col-12 mx-2 mb-2 border-0" style="width: 18rem;">
                         <img src="./assets/img/suricata.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <a href="" target="_blank"><h5 class="card-title">Suricata</h5></a> 
                         </div>
                     </div>
-                    <div class="card col-md-3 col-12 mx-2 border-0" style="width: 18rem;">
+                    <div class="card col-md-3 col-12 mx-2 mb-2 border-0" style="width: 18rem;">
                         <img src="./assets/img/ricomida.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <a href="" target="_blank"><h5 class="card-title">Ricomida</h5></a> 
                         </div>
                     </div>
-                    <div class="card col-md-3 col-12 mx-2 border-0" style="width: 18rem;">
+                    <div class="card col-md-3 col-12 mx-2 mb-2 border-0" style="width: 18rem;">
                         <img src="./assets/img/block-frontEnd.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <a href="" target="_blank"><h5 class="card-title">Block Frontend</h5></a> 
                         </div>
                     </div>
-                    <div class="card col-md-3 col-12 mx-2 border-0" style="width: 18rem;">
+                    <div class="card col-md-3 col-12 mx-2  mb-2 border-0" style="width: 18rem;">
                         <img src="./assets/img/coffe-agere.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <a href=""><h5 class="card-title">Coffee Agere</h5></a> 
@@ -127,11 +145,13 @@
                 </div>
             </div>
         </section>
-        <footer id="contact">
+        <!--Formulario de contacto y paginas de contactos-->
+        <footer id="contact" class="bg-success">
             <div class="container py-4 my-2">
                 <h2 class="text-secondary fw-bold text-center">Contactame</h2>
                 <div class="row  my-2 py-4">
-                    <div class="col-md-6 col-12">
+                    <!--Formulario-->
+                    <div class="col-md-6 col-12 mb-2">
                         <form>
                             <div class="row">
                                 <div class="col-6 mb-3">
@@ -150,6 +170,7 @@
                             <button type="submit" class="btn btn-danger col-md-3 col-12">Enviar</button>
                         </form>
                     </div>
+                    <!--Datos de contacto-->
                     <div class="container col-md-6 col-12">
                         <div class="row my-2 mx-2">
                             <div class="d-flex">
